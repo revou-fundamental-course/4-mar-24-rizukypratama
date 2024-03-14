@@ -1,0 +1,117 @@
+body {
+    font: 14px/20px arial, sans-serif;
+    background-color: rgb(249, 249, 245);
+    font-family: arial;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    background-color:#ffffff;
+ 
+}
+
+.main{
+    width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.main-form {
+    height: 200px;
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.siderbar  {
+    width: 450px;
+    padding: 20px;
+    float: right;
+}
+
+.hitung {
+    background-color: #0955ee;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset {
+    background-color: #0955ee;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: 65px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hasil {
+    height: 180px;
+    width: 400px;
+    font-size: 14px;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display:inline-block;
+}
+
+.download {
+    background-color: #0955ee;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 150px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download:hover {
+    background-color: #08bcf3;
+}
+
+.hitung:hover {
+    background-color: #08bcf3;
+}
+
+.reset:hover {
+    background-color: #08bcf3;
+}
+
+
+/* ini buat clear */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
